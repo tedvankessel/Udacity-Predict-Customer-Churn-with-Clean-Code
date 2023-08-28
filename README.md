@@ -31,6 +31,9 @@ The following datasets were recommended by Udacity for use in this project:
     >Google
     >https://github.com/anuraglahon16/Project-Predict-Customer-Churn-with-clean-code-
     >https://github.com/LaurentVeyssier/Udacity-Predict-Customer-Churn-with-Clean-Code
+    >https://github.com/I-Akrout/Predict-customer-churn-clean-code
+    >https://github.com/luizomatias/predict-customer-churn-clean-code
+    >https://github.com/ibrahim-sheriff/Predict-Customer-Churn-with-Clean-Code
 
 
 ### Installing
