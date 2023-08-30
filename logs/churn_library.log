@@ -1,0 +1,63 @@
+root - INFO - INFO: Begin testing import_data
+root - INFO - SUCCESS: Testing import_data file loaded
+root - INFO - INFO: Rows: 10127	Columns: 22
+root - INFO - INFO: Deleting pre-existing files
+root - INFO - INFO: Deleted pre-existing file ./images/eda/churn_histogram.png
+root - INFO - INFO: Deleted pre-existing file ./images/eda/customer_age_histogram.png
+root - INFO - INFO: Deleted pre-existing file ./images/eda/marital_status_distribution.png
+root - INFO - INFO: Deleted pre-existing file ./images/eda/total_transaction_histogram.png
+root - INFO - INFO: Deleted pre-existing file ./images/eda/heatmap.png
+root - INFO - INFO: Plotting Churn Histogram
+root - INFO - INFO: Plotting Customer Age Histogram
+root - INFO - INFO: Plotting Marital Status Distribution
+root - INFO - INFO: Plotting Total Transaction Histogram
+root - INFO - INFO: Plotting Heatmap
+root - INFO - SUCCESS: perform_eda ran
+root - INFO - SUCCESS: File ./images/eda/churn_histogram.png was found
+root - INFO - SUCCESS: File ./images/eda/customer_age_histogram.png was found
+root - INFO - SUCCESS: File ./images/eda/marital_status_distribution.png was found
+root - INFO - SUCCESS: File ./images/eda/total_transaction_histogram.png was found
+root - INFO - SUCCESS: File ./images/eda/heatmap.png was found
+root - INFO - INFO: mapping categorical features
+root - INFO - INFO: apply mapping to features, reanme and drop old column
+root - INFO - SUCCESS: encoder_helper ran
+root - INFO - SUCCESS: encoder_helper makes the correct modification to the dataframe
+root - INFO - INFO: testing perform_feature_engineering
+root - INFO - INFO: converting categorical variable Attrition_Flag to numerical variable Churn
+root - INFO - INFO: Identify categorical features
+root - INFO - INFO: categorical ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category']
+root - INFO - INFO: mapping categorical features
+root - INFO - INFO: apply mapping to features, reanme and drop old column
+root - INFO - INFO: X_train shape: (7088, 21)
+root - INFO - INFO: X_test shape:  (3039, 21)
+root - INFO - INFO: y_train shape: (7088,)
+root - INFO - INFO: y_test shape:  (3039,)
+root - INFO - SUCCESS: perform_feature_engineeringr ran
+root - INFO - SUCCESS: All conditions on data passed successfully
+root - INFO - INFO: testing train_models
+root - INFO - INFO: Deleting pre-existing files
+root - INFO - INFO: Deleted pre-existing file ./models/logistic_model.pkl
+root - INFO - INFO: Deleted pre-existing file ./models/rfc_model.pkl
+root - INFO - INFO: Deleted pre-existing file ./images/results/roc_curve_result.png
+root - INFO - INFO: Deleted pre-existing file ./images/results/rf_results.png
+root - INFO - INFO: Deleted pre-existing file ./images/results/logistic_results.png
+root - INFO - INFO: Deleted pre-existing file ./images/results/feature_importances.png
+root - INFO - INFO: testing train_models function
+root - INFO - INFO: begin model training
+root - INFO - INFO: begin grid search on random_forest classifier
+root - INFO - INFO: grid search complete
+root - INFO - INFO: begin training on logistic regression classifier
+root - INFO - INFO: Save best models
+root - INFO - INFO: Compute train and test predictions for RandomForestClassifier
+root - INFO - INFO: Compute train and test predictions for LogisticRegression
+root - INFO - INFO: Compute an save ROC curves
+root - INFO - INFO: Compute classification report
+root - INFO - INFO: Compute feature importances
+root - INFO - SUCCESS: train_models ran
+root - INFO - INFO: testing train_models produced files
+root - INFO - SUCCESS: File ./models/logistic_model.pkl was found
+root - INFO - SUCCESS: File ./models/rfc_model.pkl was found
+root - INFO - SUCCESS: File ./images/results/roc_curve_result.png was found
+root - INFO - SUCCESS: File ./images/results/rf_results.png was found
+root - INFO - SUCCESS: File ./images/results/logistic_results.png was found
+root - INFO - SUCCESS: File ./images/results/feature_importances.png was found

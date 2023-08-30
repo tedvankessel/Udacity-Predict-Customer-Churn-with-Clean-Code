@@ -1,5 +1,18 @@
 # Udacity-Predict-Customer-Churn-with-Clean-Code
 
+- Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
+
+## Project Description
+Your project description here.
+
+## Files and data description
+Overview of the files and data present in the root directory. 
+
+## Running Files
+How do you run your files? What should happen when you run your files?
+
+
+
 ## Introduction 
 
 ### From the course documentation:
@@ -60,3 +73,5 @@ This project is licensed under the MIT License  License - see the LICENSE.md fil
 	Jupyter Notebook
 ## Author
 **Theodore van Kessel** 
+
+
