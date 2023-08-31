@@ -1,0 +1,26 @@
+
+(SE4Sci) C:\JupyterNotebooks-SE4Sci\Predict-Customer-Churn-with-Clean-Code>autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
+
+(SE4Sci) C:\JupyterNotebooks-SE4Sci\Predict-Customer-Churn-with-Clean-Code>pylint churn_script_logging_and_tests.py
+************* Module churn_script_logging_and_tests
+churn_script_logging_and_tests.py:119:0: C0325: Unnecessary parens after 'assert' keyword (superfluous-parens)
+churn_script_logging_and_tests.py:33:4: W0603: Using the global statement (global-statement)
+churn_script_logging_and_tests.py:59:4: W0603: Using the global statement (global-statement)
+churn_script_logging_and_tests.py:75:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:78:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:85:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:91:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:93:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:132:4: W0602: Using global for 'dataframe' but no assignment is done (global-variable-not-assigned)
+churn_script_logging_and_tests.py:158:4: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+churn_script_logging_and_tests.py:198:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:201:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:209:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:216:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_script_logging_and_tests.py:218:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+
+------------------------------------------------------------------
+Your code has been rated at 8.61/10 (previous run: 8.61/10, +0.00)
+
+
+(SE4Sci) C:\JupyterNotebooks-SE4Sci\Predict-Customer-Churn-with-Clean-Code>

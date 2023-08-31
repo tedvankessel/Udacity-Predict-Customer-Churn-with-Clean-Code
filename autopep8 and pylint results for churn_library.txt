@@ -1,0 +1,53 @@
+(SE4Sci) C:\JupyterNotebooks-SE4Sci\Predict-Customer-Churn-with-Clean-Code>autopep8 --in-place --aggressive --aggressive churn_library.py
+Traceback (most recent call last):
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Anaconda3-64\envs\SE4Sci\Scripts\autopep8.exe\__main__.py", line 7, in <module>
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 4528, in main
+    results = fix_multiple_files(args.files, args, sys.stdout)
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 4423, in fix_multiple_files
+    ret = _fix_file((name, options, output))
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 4393, in _fix_file
+    return fix_file(*parameters)
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 3589, in fix_file
+    fixed_source = fix_lines(fixed_source, options, filename=filename)
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 3569, in fix_lines
+    fixed_source = fix.fix()
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 613, in fix
+    self._fix_source(filter_results(source=''.join(self.source),
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 557, in _fix_source
+    modified_lines = fix(result)
+  File "C:\Anaconda3-64\envs\SE4Sci\lib\site-packages\autopep8.py", line 761, in fix_e225
+    pycodestyle.missing_whitespace_around_operator(fixed, ts))
+AttributeError: module 'pycodestyle' has no attribute 'missing_whitespace_around_operator'
+
+(SE4Sci) C:\JupyterNotebooks-SE4Sci\Predict-Customer-Churn-with-Clean-Code>pylint churn_library.py
+************* Module churn_library
+churn_library.py:202:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_library.py:211:4: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:212:4: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:214:4: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:214:13: C0103: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:217:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_library.py:218:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_library.py:219:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_library.py:220:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+churn_library.py:224:0: R0913: Too many arguments (6/5) (too-many-arguments)
+churn_library.py:251:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+churn_library.py:252:13: C0103: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:252:13: W0612: Unused variable 'ax' (unused-variable)
+churn_library.py:304:17: C0103: Argument name "X_train" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:304:26: C0103: Argument name "X_test" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:304:0: R0914: Too many local variables (16/15) (too-many-locals)
+churn_library.py:354:4: W0612: Unused variable 'axis' (unused-variable)
+churn_library.py:402:4: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:402:13: C0103: Variable name "X_test" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:16:0: C0411: standard import "import logging" should be placed before "import joblib" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.84/10 (previous run: 8.84/10, +0.00)
+
+
+(SE4Sci) C:\JupyterNotebooks-SE4Sci\Predict-Customer-Churn-with-Clean-Code>
