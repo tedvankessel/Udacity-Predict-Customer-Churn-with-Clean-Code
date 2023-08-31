@@ -317,11 +317,12 @@ def train_models(X_train, X_test, y_train, y_test):
     rfc = RandomForestClassifier(random_state=42, n_jobs=-1)
 
     # Parameters for Grid Search
-#     param_grid = {'n_estimators': [200, 500],
-#                   'max_features': ['auto', 'sqrt'],
-#                   'max_depth' : [4, 5, 100],
-#                   'criterion' :['gini', 'entropy']}
-    param_grid = {'n_estimators': [200, 500]}
+
+    param_grid = {
+            'n_estimators': [200, 500],
+            'max_depth' : [4, 5, 100],
+            'criterion' :['gini', 'entropy']
+            }
 
     logging.info("INFO: begin grid search on random_forest classifier")
     # Grid Search and fit for RandomForestClassifier
