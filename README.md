@@ -55,9 +55,15 @@ The churn_library.py file implements a set of functions to process the 	**bank_d
 	Identify most important features influencing the predictions and visualize their impact using SHAP library
 	Save best models with their performance metrics
 
- To run the files it is necessary to import the required files. These include:
+ To run the files it is necessary to import the required files. These include those specified in:
  
- This file can be run from the command line or imported as a class and run with another program
+ 	requirements_py3.6.txt
+  
+  These can be installed by running the following from the command line
+
+	pip install -r requirements.txt
+  
+ The project files can be run from the command line or imported as a class and run with another program
  
  	Run: python churn_library.py 
  
