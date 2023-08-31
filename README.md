@@ -5,6 +5,14 @@
 
 In this project, you will implement your learnings to identify credit card customers that are most likely to churn. The completed project will include a Python package for a machine learning project that follows coding (PEP8) and engineering best practices for implementing software (modular, documented, and tested). The package will also have the flexibility of being run interactively or from the command-line interface (CLI).
 
+## Model Quality tests
+The code computes two models of banking dataset, logistic regression and random forest. The ROC curves for these models show:
+
+	LogisticRegression AOC = 0.55
+	RandomForest AOC = 1.00
+
+The conclusion in this case is that the RandomForest does a superior job of classifying the customer churn. 
+
 ## Code Quality tests
 
 Autopep8 and pylint were run on both the **churn_library.py** and **churn_library.py** files as prescribed in the guide
