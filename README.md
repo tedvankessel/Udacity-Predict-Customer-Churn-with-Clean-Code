@@ -5,6 +5,17 @@
 
 In this project, you will implement your learnings to identify credit card customers that are most likely to churn. The completed project will include a Python package for a machine learning project that follows coding (PEP8) and engineering best practices for implementing software (modular, documented, and tested). The package will also have the flexibility of being run interactively or from the command-line interface (CLI).
 
+## Code Quality tests
+
+Autopep8 and pylint were run on both the **churn_library.py** and **churn_library.py** files as prescribed in the guide
+and the results are shown in this github in the files:
+
+**autopep8 and pylint results for churn_library.txt**
+
+**autopep8 and pylint results for churn_script_logging_and_tests.txt**
+
+Pylint results for both files were greater than **0.8**
+
 ## Files and data description
 Overview of the files and data present in the root directory. 
 
@@ -43,6 +54,8 @@ The churn_library.py file implements a set of functions to process the 	**bank_d
 	Train two classification models (sklearn random forest and logistic regression)
 	Identify most important features influencing the predictions and visualize their impact using SHAP library
 	Save best models with their performance metrics
+
+ To run the files it is necessary to import the required files. These include:
  
  This file can be run from the command line or imported as a class and run with another program
  
