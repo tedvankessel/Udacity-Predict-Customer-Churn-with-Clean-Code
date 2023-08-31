@@ -35,7 +35,21 @@ Overview of the files and data present in the root directory.
 	├── requirements_py3.6.txt
 
 ## Running Files
-How do you run your files? What should happen when you run your files?
+There are 2 operable files in this project: **churn_library.py** and **churn_library.py**
+The churn_library.py file implements a set of functions to process the 	**bank_data.csv** file:
+
+	Load and explore the dataset composed of over 10k samples (EDA)
+	Prepare data for training (feature engineering resulting into 19 features)
+	Train two classification models (sklearn random forest and logistic regression)
+	Identify most important features influencing the predictions and visualize their impact using SHAP library
+	Save best models with their performance metrics
+ 
+ This file can be run from the command line or imported as a class and run with another program
+ 
+ 	Run: python churn_library.py 
+ 
+ 	run: python_script_logging_and_tests.py
+
 
 ## Code
 The code for this project is fully embodied in the **churn_library.py** and **churn_library.py** files in this Github repository.
