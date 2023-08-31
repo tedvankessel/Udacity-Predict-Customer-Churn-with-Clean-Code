@@ -354,23 +354,18 @@ def train_models(X_train, X_test, y_train, y_test):
     plt.figure(figsize=(15, 8))
     axis = plt.gca()
 
-    logging.info("INFO: Compute an save ROC curves")
-
-    # Create a figure
-    fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+    logging.info("INFO: Compute and save ROC curves")
 
     # Plot ROC curve for LogisticRegression
-    roc_display = RocCurveDisplay.from_estimator(lrc, X_test, y_test)
-    roc_display.plot(ax=axes[0])
-
+    lrc_roc_display = RocCurveDisplay.from_estimator(lrc, X_test, y_test)
+    
     # Plot ROC curve for RandomForestClassifier
-    roc_display = RocCurveDisplay.from_estimator(cv_rfc.best_estimator_, X_test, y_test)
-    roc_display.plot(ax=axes[1])
+    rfc_roc_display = RocCurveDisplay.from_estimator(cv_rfc.best_estimator_, X_test, y_test,ax=lrc_roc_display.ax_)
 
     # Save the figure and close it
     plt.savefig(fname='./images/results/roc_curve_result.png')
-    # plt.show()
-    plt.close(fig)
+    #plt.show()
+    plt.close()
 
     # Compute results
     logging.info("INFO: Compute classification report")
