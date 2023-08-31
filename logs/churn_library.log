@@ -50,7 +50,7 @@ root - INFO - INFO: begin training on logistic regression classifier
 root - INFO - INFO: Save best models
 root - INFO - INFO: Compute train and test predictions for RandomForestClassifier
 root - INFO - INFO: Compute train and test predictions for LogisticRegression
-root - INFO - INFO: Compute an save ROC curves
+root - INFO - INFO: Compute and save ROC curves
 root - INFO - INFO: Compute classification report
 root - INFO - INFO: Compute feature importances
 root - INFO - SUCCESS: train_models ran
