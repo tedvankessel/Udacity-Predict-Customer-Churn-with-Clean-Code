@@ -1,26 +1,44 @@
 # Udacity-Predict-Customer-Churn-with-Clean-Code
 
-- Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
-
 ## Project Description
-Your project description here.
-
-## Files and data description
-Overview of the files and data present in the root directory. 
-
-## Running Files
-How do you run your files? What should happen when you run your files?
-
-
-
-## Introduction 
-
 ### From the course documentation:
 
 In this project, you will implement your learnings to identify credit card customers that are most likely to churn. The completed project will include a Python package for a machine learning project that follows coding (PEP8) and engineering best practices for implementing software (modular, documented, and tested). The package will also have the flexibility of being run interactively or from the command-line interface (CLI).
 
+## Files and data description
+Overview of the files and data present in the root directory. 
+
+	├── churn_library.py        ------------------------> functions that implement the churn model
+	├── churn_notebook.ipynb    ------------------------> Original Udacity starter Jupyter notebook from churn model 
+	├── churn_script_logging_and_tests.py  -------------> unit test functions to test churn_library functions
+	├── data
+	│   └── bank_data.csv   ----------------------------> data in csv format
+	├── images
+	│   ├── eda 
+	│   │   ├── churn_histogram.png  -------------------> churn hystogram image
+	│   │   ├── customer_age_histogram.png  ------------> customer age hystogram image
+	│   │   ├── heatmap.png  ------> heatmap image
+	│   │   ├── marital_status_hystogram.png  ----------> marital status hystogram image
+	│   │   └── total_transaction_distribution.png  ----> total transaction distribution image
+	│   └── results
+	│       ├── feature_importances.png  ---------------> feature importances image
+	│       ├── logistic_results.png  ------------------> logistic model results image
+	│       ├── rf_results.png  ------------------------> random forest results image
+	│       └── roc_curve_result.png  ------------------> roc curve result image
+	├── logs
+	│   └── churn_library.log  -------------------------> test logging
+	├── models
+	│   ├── logistic_model.pkl -------------------------> logistic model file
+	│   └── rfc_model.pkl ------------------------------> random forest model file
+	│
+	├── README.md
+	├── requirements_py3.6.txt
+
+## Running Files
+How do you run your files? What should happen when you run your files?
+
 ## Code
-The code for this project is fully embodied in the **xxxxxxxxxx.ipynb** Jupyter Notebook file in this Github repository.
+The code for this project is fully embodied in the **churn_library.py** and **churn_library.py** files in this Github repository.
 
 ### The python version used in this code is:
 
@@ -33,6 +51,9 @@ The code for this project is fully embodied in the **xxxxxxxxxx.ipynb** Jupyter 
 
 ## Datasets
 The following datasets were recommended by Udacity for use in this project:
+
+**bank_data.csv**	Provided by Udacity as part of the course project data.
+It is my understanding that this is publically provided for use in this project
 
     
 ## Acknowledgments and Sources of Code and Data:
